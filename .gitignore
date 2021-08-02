@@ -13,3 +13,5 @@ configuration/ldap/*
 !configuration/plugins.py
 prometheus.yml
 super-linter.log
+.github
+

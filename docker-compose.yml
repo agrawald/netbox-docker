@@ -15,6 +15,7 @@ services:
     - ./configuration:/etc/netbox/config:z,ro
     - ./reports:/etc/netbox/reports:z,ro
     - ./scripts:/etc/netbox/scripts:z,ro
+    - ./plugins:/etc/netbox/netbox:z,ro
     - netbox-media-files:/opt/netbox/netbox/media:z
   netbox-worker:
     <<: *netbox
